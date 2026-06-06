@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "deepak-harwani-portfolio-fixed.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "deepak-harwani-portfolio-fixed.html"
+    }
+  ]
+}
